@@ -12,41 +12,7 @@ Funcionalidades:
 Requisitos:
 -Python 3.12 ou superior.
 -PyGame 2.6.0 ou superior.
--Pickle (para salvar a pontuação mais alta - já vem com o Python).
-
-Instalação:
-Clone o repositório:
-
-bash
-Copiar código
-git clone https://github.com/seu-usuario/space-defenders.git
-Crie um ambiente virtual (opcional, mas recomendado):
-
-No Windows:
-
-bash
-Copiar código
-python -m venv venv
-venv\Scripts\activate
-
-No Linux/MacOS:
-
-bash
-Copiar código
-python3 -m venv venv
-source venv/bin/activate
-
-Instale as dependências:
-
-bash
-Copiar código
-pip install -r requirements.txt
-Se você não tiver o arquivo requirements.txt, adicione a dependência manualmente:
-
-bash
-Copiar código
-pip install pygame
-Execute o jogo:
+-Pickle.
 
 Como jogar
 Movimento da nave: Use as setas do teclado (← e →) para mover a nave para a esquerda e para a direita.
@@ -82,10 +48,5 @@ Space_Defenders/
 Contribuições:
 Contribuições são bem-vindas! Se você encontrar algum bug, quiser adicionar novas funcionalidades ou melhorar o código existente, sinta-se à vontade para enviar um pull request.
 
-Fork este repositório.
-Crie uma nova branch (git checkout -b feature-nome-da-feature).
-Commit suas alterações (git commit -m 'Adiciona nova feature').
-Push para a branch (git push origin feature-nome-da-feature).
-Abra um pull request.
 Créditos
 Este jogo foi desenvolvido como parte de um projeto de estudo da linguagem Python e da biblioteca PyGame.
